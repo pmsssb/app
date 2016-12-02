@@ -1,0 +1,90 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Pms 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:1.4.2.RELEASE:run (default-cli) > test-compile @ pms >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:copy-resources (default-resources) @ pms ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ pms ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ pms ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (pre-unit-tests) @ pms ---
+[INFO] argLine set to -javaagent:/home/pms/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/home/pms/app/target/test-results/coverage/jacoco/jacoco.exec -Djava.security.egd=file:/dev/./urandom -Xmx256m
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ pms ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 86 source files to /home/pms/app/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ pms ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ pms ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:1.4.2.RELEASE:run (default-cli) < test-compile @ pms <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.2.RELEASE:run (default-cli) @ pms ---
+[INFO] Attaching agents: []
+
+        ??  ??    ??  ????????  ???????    ??????  ????????  ????????  ???????
+        ??  ??    ??     ??     ??    ??  ??          ??     ??        ??    ??
+        ??  ????????     ??     ???????    ?????      ??     ??????    ???????
+  ??    ??  ??    ??     ??     ??             ??     ??     ??        ??   ??
+   ??????   ??    ??  ????????  ??        ??????      ??     ????????  ??    ??
+
+:: JHipster ?  :: Running Spring Boot 1.4.2.RELEASE ::
+:: http://jhipster.github.io ::
+
+2016-12-02 16:34:45.933  INFO 15181 --- [  restartedMain] com.ydtf.pms.PmsApp                      : Starting PmsApp on localhost with PID 15181 (/home/pms/app/target/classes started by pms in /home/pms/app)
+2016-12-02 16:34:45.960 DEBUG 15181 --- [  restartedMain] com.ydtf.pms.PmsApp                      : Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2016-12-02 16:34:45.960  INFO 15181 --- [  restartedMain] com.ydtf.pms.PmsApp                      : The following profiles are active: swagger,dev
+2016-12-02 16:34:46.334 DEBUG 15181 --- [kground-preinit] org.jboss.logging                        : Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2016-12-02 16:34:52.172 DEBUG 15181 --- [  restartedMain] com.ydtf.pms.config.AsyncConfiguration   : Creating Async Task Executor
+2016-12-02 16:34:53.987 DEBUG 15181 --- [  restartedMain] c.e.c.E.ydtf.pms.domain.PersistentToken  : Initialize successful.
+2016-12-02 16:34:53.990 DEBUG 15181 --- [  restartedMain] c.e.c.E.y.p.d.User.persistentTokens      : Initialize successful.
+2016-12-02 16:34:53.992 DEBUG 15181 --- [  restartedMain] c.e.c.Ehcache-com.ydtf.pms.domain.User   : Initialize successful.
+2016-12-02 16:34:53.995 DEBUG 15181 --- [  restartedMain] c.e.c.E.y.pms.domain.User.authorities    : Initialize successful.
+2016-12-02 16:34:54.010 DEBUG 15181 --- [  restartedMain] c.e.c.E.ydtf.pms.domain.Authority        : Initialize successful.
+2016-12-02 16:34:54.570 DEBUG 15181 --- [  restartedMain] c.ydtf.pms.config.MetricsConfiguration   : Registering JVM gauges
+2016-12-02 16:34:54.619 DEBUG 15181 --- [  restartedMain] c.ydtf.pms.config.MetricsConfiguration   : Monitoring the datasource
+2016-12-02 16:34:54.620 DEBUG 15181 --- [  restartedMain] c.ydtf.pms.config.MetricsConfiguration   : Initializing Metrics JMX reporting
+2016-12-02 16:34:55.846  WARN 15181 --- [  restartedMain] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-12-02 16:34:55.847  WARN 15181 --- [  restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-12-02 16:34:56.580  INFO 15181 --- [  restartedMain] com.ydtf.pms.config.WebConfigurer        : Web application configuration, using profiles: [swagger, dev]
+2016-12-02 16:34:56.580 DEBUG 15181 --- [  restartedMain] com.ydtf.pms.config.WebConfigurer        : Initializing Metrics registries
+2016-12-02 16:34:56.599 DEBUG 15181 --- [  restartedMain] com.ydtf.pms.config.WebConfigurer        : Registering Metrics Filter
+2016-12-02 16:34:56.600 DEBUG 15181 --- [  restartedMain] com.ydtf.pms.config.WebConfigurer        : Registering Metrics Servlet
+2016-12-02 16:34:56.602 DEBUG 15181 --- [  restartedMain] com.ydtf.pms.config.WebConfigurer        : Initialize H2 console
+2016-12-02 16:34:56.603  INFO 15181 --- [  restartedMain] com.ydtf.pms.config.WebConfigurer        : Web application fully configured
+2016-12-02 16:34:57.098 DEBUG 15181 --- [  restartedMain] c.ydtf.pms.config.DatabaseConfiguration  : Configuring Liquibase
+2016-12-02 16:34:57.147  WARN 15181 --- [ pms-Executor-1] c.y.p.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2016-12-02 16:35:00.783 DEBUG 15181 --- [ pms-Executor-1] c.y.p.c.liquibase.AsyncSpringLiquibase   : Started Liquibase in 3628 ms
+2016-12-02 16:35:01.278  INFO 15181 --- [  restartedMain] com.ydtf.pms.PmsApp                      : Running with Spring profile(s) : [swagger, dev]
+2016-12-02 16:35:09.310 DEBUG 15181 --- [  restartedMain] c.y.p.c.apidoc.SwaggerConfiguration      : Starting Swagger
+2016-12-02 16:35:09.331 DEBUG 15181 --- [  restartedMain] c.y.p.c.apidoc.SwaggerConfiguration      : Started Swagger in 20 ms
+2016-12-02 16:35:12.233  INFO 15181 --- [  restartedMain] com.ydtf.pms.PmsApp                      : Started PmsApp in 28.592 seconds (JVM running for 29.348)
+2016-12-02 16:35:12.249  INFO 15181 --- [  restartedMain] com.ydtf.pms.PmsApp                      : 
+----------------------------------------------------------
+	Application 'pms' is running! Access URLs:
+	Local: 		http://localhost:8080
+	External: 	http://127.0.0.1:8080
+----------------------------------------------------------
+2016-12-02 16:35:35.090 DEBUG 15181 --- [ XNIO-2 task-16] com.ydtf.pms.aop.logging.LoggingAspect   : Enter: com.ydtf.pms.web.rest.ProfileInfoResource.getActiveProfiles() with argument[s] = []
+2016-12-02 16:35:35.096 DEBUG 15181 --- [ XNIO-2 task-16] com.ydtf.pms.aop.logging.LoggingAspect   : Exit: com.ydtf.pms.web.rest.ProfileInfoResource.getActiveProfiles() with result = com.ydtf.pms.web.rest.ProfileInfoResource$ProfileInfoResponse@6ad7a79e
+2016-12-02 16:35:35.109 DEBUG 15181 --- [  XNIO-2 task-1] com.ydtf.pms.aop.logging.LoggingAspect   : Enter: com.ydtf.pms.web.rest.AccountResource.getAccount() with argument[s] = []
+2016-12-02 16:35:35.192 DEBUG 15181 --- [  XNIO-2 task-1] com.ydtf.pms.aop.logging.LoggingAspect   : Enter: com.ydtf.pms.service.UserService.getUserWithAuthorities() with argument[s] = []
+Hibernate: select user0_.id as id1_4_, user0_.created_by as created_2_4_, user0_.created_date as created_3_4_, user0_.last_modified_by as last_mod4_4_, user0_.last_modified_date as last_mod5_4_, user0_.activated as activate6_4_, user0_.activation_key as activati7_4_, user0_.email as email8_4_, user0_.first_name as first_na9_4_, user0_.lang_key as lang_ke10_4_, user0_.last_name as last_na11_4_, user0_.login as login12_4_, user0_.password_hash as passwor13_4_, user0_.reset_date as reset_d14_4_, user0_.reset_key as reset_k15_4_ from jhi_user user0_ where user0_.login=?
+Hibernate: select authoritie0_.user_id as user_id1_5_0_, authoritie0_.authority_name as authorit2_5_0_, authority1_.name as name1_0_1_ from jhi_user_authority authoritie0_ inner join jhi_authority authority1_ on authoritie0_.authority_name=authority1_.name where authoritie0_.user_id=?
+2016-12-02 16:35:35.391 DEBUG 15181 --- [  XNIO-2 task-1] com.ydtf.pms.aop.logging.LoggingAspect   : Exit: com.ydtf.pms.service.UserService.getUserWithAuthorities() with result = User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated='true', langKey='zh-cn', activationKey='null'}
+2016-12-02 16:35:35.408 DEBUG 15181 --- [  XNIO-2 task-1] com.ydtf.pms.aop.logging.LoggingAspect   : Exit: com.ydtf.pms.web.rest.AccountResource.getAccount() with result = <200 OK,UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated=true, langKey='zh-cn', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
